@@ -1,21 +1,44 @@
-venv/
-__pycache__/
-data/logs/
-data/uploads/
-data/vector_db/
+# Python
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+*.sqlite3
+*.db
 
-# Logs & local data
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Node / React
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
 backend/data/logs/
+
+# Uploaded PDFs
 backend/data/uploads/
+
+# Vector DB (Chroma persistence)
 backend/data/vector_db/
 
-# Node & frontend
-frontend/node_modules/
-frontend/dist/
-
-# Environment files
+# Environment variables
+.env
 *.env
-.env.*
+
+# IDE / Editor
+.vscode/
+.idea/
+.DS_Store
+
+# Docker
+*.pid
+*.sock
+docker-data/
+
+# OS
+Thumbs.db
