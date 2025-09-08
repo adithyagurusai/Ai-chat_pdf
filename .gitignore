@@ -1,0 +1,21 @@
+venv/
+__pycache__/
+data/logs/
+data/uploads/
+data/vector_db/
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs & local data
+backend/data/logs/
+backend/data/uploads/
+backend/data/vector_db/
+
+# Node & frontend
+frontend/node_modules/
+frontend/dist/
+
+# Environment files
+*.env
+.env.*

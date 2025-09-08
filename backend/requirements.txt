@@ -1,0 +1,31 @@
+# backend/requirements.txt
+# Core FastAPI and server dependencies
+# Web framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# PDF processing
+pypdf==4.1.0
+python-magic==0.4.27
+
+# Vector search
+faiss-cpu==1.7.4
+ollama==0.1.7
+
+# Database
+sqlalchemy==2.0.23
+alembic==1.13.1
+
+# Auth & security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-decouple==3.8
+
+# Utilities
+pydantic==2.5.0
+python-dotenv==1.0.0
+loguru==0.7.2
+
+# Optional HTTP client
+httpx==0.25.2
