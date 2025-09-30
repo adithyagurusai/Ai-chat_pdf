@@ -167,45 +167,7 @@ npm run test
 * Use async where possible for LLM and vector queries.
 
 ---
-
-## **9️⃣ Daily Task Roadmap**
-
-### Week 1 – Setup & Backend Foundation
-
-| Day | Tasks                                      | Deliverable                    |
-| --- | ------------------------------------------ | ------------------------------ |
-| 1   | Setup repo, venv, install deps, Gitignore  | Environment ready              |
-| 2   | Database setup, models, Alembic migrations | Tables + migrations ready      |
-| 3   | Auth endpoints (register/login), JWT       | Authentication functional      |
-| 4   | PDF handler (extract text from PDFs)       | PDF parsing working            |
-| 5   | Vector store (chroma embeddings)           | Embeddings stored & searchable |
-
-### Week 2 – Backend + LLM
-
-| Day | Tasks                                                    | Deliverable                  |
-| --- | -------------------------------------------------------- | ---------------------------- |
-| 6   | Ollama client + chat engine                              | Query → LLM response working |
-| 7   | Backend API endpoints `/upload-pdf`, `/chat`, `/history` | API ready for frontend       |
-| 8   | Backend unit tests & edge case handling                  | Modules tested               |
-| 9   | Frontend setup, Tailwind, Context API                    | React project running        |
-| 10  | Frontend authentication UI                               | Login/register working       |
-
-### Week 3 – Frontend + Integration
-
-| Day | Tasks                             | Deliverable                         |
-| --- | --------------------------------- | ----------------------------------- |
-| 11  | PDF upload & viewer               | PDF upload functional               |
-| 12  | Chat UI                           | Chat interface working              |
-| 13  | Chat history & session management | Sessions persisted                  |
-| 14  | Frontend styling & edge cases     | UI polished                         |
-| 15  | End-to-end integration & testing  | Full flow functional                |
-| 16  | Dockerize backend & frontend      | Containers running                  |
-| 17  | Optimization & performance        | Large PDFs & multiple users handled |
-| 18  | Documentation & cleanup           | Ready for deployment                |
-
----
-
-## **10️⃣ Troubleshooting**
+## **9 Troubleshooting**
 
 | Issue                | Solution                                                |
 | -------------------- | ------------------------------------------------------- |
@@ -216,7 +178,7 @@ npm run test
 
 ---
 
-## **11️⃣ Future Enhancements**
+## **10 Future Enhancements**
 
 * OCR for scanned PDFs.
 * Multi-format document support (Word, TXT).
